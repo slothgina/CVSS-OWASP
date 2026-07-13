@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="SlothSec.BlazorUI/SlothSec.BlazorUI.csproj" />
+  <Project Path="slothSec.ConsoleApp/slothSec.ConsoleApp.csproj" />
+  <Project Path="SlothSec.RiskCore/SlothSec.RiskCore.csproj" />
+  <Project Path="SlothSec.WebAPI/SlothSec.WebAPI.csproj" />
+  <Project Path="SlothSecDesktopApp/SlothSecDesktopApp.csproj" />
+</Solution>

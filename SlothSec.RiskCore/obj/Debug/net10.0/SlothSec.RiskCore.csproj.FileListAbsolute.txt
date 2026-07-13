@@ -1,0 +1,12 @@
+C:\Users\ginag\CVSS-OWASP\SlothSec.RiskCore\bin\Debug\net10.0\SlothSec.RiskCore.deps.json
+C:\Users\ginag\CVSS-OWASP\SlothSec.RiskCore\bin\Debug\net10.0\SlothSec.RiskCore.dll
+C:\Users\ginag\CVSS-OWASP\SlothSec.RiskCore\bin\Debug\net10.0\SlothSec.RiskCore.pdb
+C:\Users\ginag\CVSS-OWASP\SlothSec.RiskCore\obj\Debug\net10.0\SlothSec.RiskCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ginag\CVSS-OWASP\SlothSec.RiskCore\obj\Debug\net10.0\SlothSec.RiskCore.AssemblyInfoInputs.cache
+C:\Users\ginag\CVSS-OWASP\SlothSec.RiskCore\obj\Debug\net10.0\SlothSec.RiskCore.AssemblyInfo.cs
+C:\Users\ginag\CVSS-OWASP\SlothSec.RiskCore\obj\Debug\net10.0\SlothSec.RiskCore.csproj.CoreCompileInputs.cache
+C:\Users\ginag\CVSS-OWASP\SlothSec.RiskCore\obj\Debug\net10.0\SlothSec.RiskCore.sourcelink.json
+C:\Users\ginag\CVSS-OWASP\SlothSec.RiskCore\obj\Debug\net10.0\SlothSec.RiskCore.dll
+C:\Users\ginag\CVSS-OWASP\SlothSec.RiskCore\obj\Debug\net10.0\refint\SlothSec.RiskCore.dll
+C:\Users\ginag\CVSS-OWASP\SlothSec.RiskCore\obj\Debug\net10.0\SlothSec.RiskCore.pdb
+C:\Users\ginag\CVSS-OWASP\SlothSec.RiskCore\obj\Debug\net10.0\ref\SlothSec.RiskCore.dll

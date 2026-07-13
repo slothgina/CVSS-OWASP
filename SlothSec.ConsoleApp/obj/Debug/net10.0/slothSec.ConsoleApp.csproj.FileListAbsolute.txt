@@ -1,0 +1,15 @@
+C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\bin\Debug\net10.0\slothSec.ConsoleApp.exe
+C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\bin\Debug\net10.0\slothSec.ConsoleApp.deps.json
+C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\bin\Debug\net10.0\slothSec.ConsoleApp.runtimeconfig.json
+C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\bin\Debug\net10.0\slothSec.ConsoleApp.dll
+C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\bin\Debug\net10.0\slothSec.ConsoleApp.pdb
+C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\obj\Debug\net10.0\slothSec.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\obj\Debug\net10.0\slothSec.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\obj\Debug\net10.0\slothSec.ConsoleApp.AssemblyInfo.cs
+C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\obj\Debug\net10.0\slothSec.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\obj\Debug\net10.0\slothSec.ConsoleApp.sourcelink.json
+C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\obj\Debug\net10.0\slothSec.ConsoleApp.dll
+C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\obj\Debug\net10.0\refint\slothSec.ConsoleApp.dll
+C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\obj\Debug\net10.0\slothSec.ConsoleApp.pdb
+C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\obj\Debug\net10.0\slothSec.ConsoleApp.genruntimeconfig.cache
+C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\obj\Debug\net10.0\ref\slothSec.ConsoleApp.dll
