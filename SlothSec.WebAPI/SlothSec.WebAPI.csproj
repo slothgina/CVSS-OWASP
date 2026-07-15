@@ -7,12 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.10" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\\SlothSec.RiskCore\\SlothSec.RiskCore.csproj" />
+   <ProjectReference Include="..\\SlothSec.RiskCore\\SlothSec.RiskCore.csproj" />
   </ItemGroup>
 
 </Project>

@@ -11,9 +11,9 @@ C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\obj\Debug\net10.0\slothSec.Console
 C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\obj\Debug\net10.0\slothSec.ConsoleApp.AssemblyInfo.cs
 C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\obj\Debug\net10.0\slothSec.ConsoleApp.csproj.CoreCompileInputs.cache
 C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\obj\Debug\net10.0\slothSec.ConsoleApp.sourcelink.json
-C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\obj\Debug\net10.0\slothSec.2B8CA349.Up2Date
 C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\obj\Debug\net10.0\slothSec.ConsoleApp.dll
 C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\obj\Debug\net10.0\refint\slothSec.ConsoleApp.dll
 C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\obj\Debug\net10.0\slothSec.ConsoleApp.pdb
 C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\obj\Debug\net10.0\slothSec.ConsoleApp.genruntimeconfig.cache
 C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\obj\Debug\net10.0\ref\slothSec.ConsoleApp.dll
+c:\Users\ginag\CVSS-OWASP\SlothSec.ConsoleApp\obj\Debug\net10.0\SlothSec.31E76402.Up2Date
