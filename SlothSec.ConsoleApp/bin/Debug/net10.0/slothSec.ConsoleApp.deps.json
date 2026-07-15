@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v10.0": {
       "slothSec.ConsoleApp/1.0.0": {
+        "dependencies": {
+          "SlothSec.RiskCore": "1.0.0"
+        },
         "runtime": {
           "slothSec.ConsoleApp.dll": {}
+        }
+      },
+      "SlothSec.RiskCore/1.0.0": {
+        "runtime": {
+          "SlothSec.RiskCore.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "slothSec.ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SlothSec.RiskCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

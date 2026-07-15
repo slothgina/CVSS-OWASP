@@ -1,7 +1,7 @@
 namespace SlothSec.RiskCore.Services;
 
 using SlothSec.RiskCore.Interfaces;
-using SlothSec.RiskCore.InterFaces;
+using SlothSec.RiskCore.Interfaces;
 using SlothSec.RiskCore.Models;
 
 public class CvssCalculator : ICvssCalculator

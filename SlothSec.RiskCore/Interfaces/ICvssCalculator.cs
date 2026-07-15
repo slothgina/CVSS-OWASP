@@ -1,4 +1,4 @@
-namespace SlothSec.RiskCore.InterFaces;
+namespace SlothSec.RiskCore.Interfaces;
 
 using SlothSec.RiskCore.Models;
 

@@ -73,8 +73,8 @@ C:\Users\ginag\CVSS-OWASP\SlothSec.BlazorUI\obj\Debug\net10.0\compressed\4rbqfak
 C:\Users\ginag\CVSS-OWASP\SlothSec.BlazorUI\obj\Debug\net10.0\compressed\3ejcb9qf2k-{0}-63fj8s7r0e-63fj8s7r0e.gz
 C:\Users\ginag\CVSS-OWASP\SlothSec.BlazorUI\obj\Debug\net10.0\compressed\fs2wfhhgbt-{0}-0j3bgjxly4-0j3bgjxly4.gz
 C:\Users\ginag\CVSS-OWASP\SlothSec.BlazorUI\obj\Debug\net10.0\compressed\bvw366nz01-{0}-abdmv1u4y3-abdmv1u4y3.gz
-C:\Users\ginag\CVSS-OWASP\SlothSec.BlazorUI\obj\Debug\net10.0\compressed\d1y8zz8lip-{0}-ne14ti1q68-ne14ti1q68.gz
-C:\Users\ginag\CVSS-OWASP\SlothSec.BlazorUI\obj\Debug\net10.0\compressed\gp1gsx08jh-{0}-ig5xotzpx5-ig5xotzpx5.gz
+C:\Users\ginag\CVSS-OWASP\SlothSec.BlazorUI\obj\Debug\net10.0\compressed\d1y8zz8lip-{0}-f7fxoh55ae-f7fxoh55ae.gz
+C:\Users\ginag\CVSS-OWASP\SlothSec.BlazorUI\obj\Debug\net10.0\compressed\gp1gsx08jh-{0}-68qhiysw0j-68qhiysw0j.gz
 C:\Users\ginag\CVSS-OWASP\SlothSec.BlazorUI\obj\Debug\net10.0\compressed\44u0rsniio-{0}-jml3yvkfcv-jml3yvkfcv.gz
 C:\Users\ginag\CVSS-OWASP\SlothSec.BlazorUI\obj\Debug\net10.0\compressed\i9ihbrofag-{0}-jml3yvkfcv-jml3yvkfcv.gz
 C:\Users\ginag\CVSS-OWASP\SlothSec.BlazorUI\obj\Debug\net10.0\staticwebassets.build.json
