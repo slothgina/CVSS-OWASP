@@ -1,0 +1,9 @@
+C:\Users\ginag\CVSS-OWASP\SlothSec.WebAPI\obj\Debug\net10.0\SlothSec.WebAPI.csproj.AssemblyReference.cache
+C:\Users\ginag\CVSS-OWASP\SlothSec.WebAPI\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\ginag\CVSS-OWASP\SlothSec.WebAPI\obj\Debug\net10.0\SlothSec.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ginag\CVSS-OWASP\SlothSec.WebAPI\obj\Debug\net10.0\SlothSec.WebAPI.AssemblyInfoInputs.cache
+C:\Users\ginag\CVSS-OWASP\SlothSec.WebAPI\obj\Debug\net10.0\SlothSec.WebAPI.AssemblyInfo.cs
+C:\Users\ginag\CVSS-OWASP\SlothSec.WebAPI\obj\Debug\net10.0\SlothSec.WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\ginag\CVSS-OWASP\SlothSec.WebAPI\obj\Debug\net10.0\SlothSec.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ginag\CVSS-OWASP\SlothSec.WebAPI\obj\Debug\net10.0\SlothSec.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ginag\CVSS-OWASP\SlothSec.WebAPI\obj\Debug\net10.0\SlothSec.WebAPI.sourcelink.json

@@ -13,3 +13,4 @@ C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\obj\Debug\net10.0\refint\slothSec.
 C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\obj\Debug\net10.0\slothSec.ConsoleApp.pdb
 C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\obj\Debug\net10.0\slothSec.ConsoleApp.genruntimeconfig.cache
 C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\obj\Debug\net10.0\ref\slothSec.ConsoleApp.dll
+C:\Users\ginag\CVSS-OWASP\slothSec.ConsoleApp\obj\Debug\net10.0\slothSec.ConsoleApp.csproj.AssemblyReference.cache

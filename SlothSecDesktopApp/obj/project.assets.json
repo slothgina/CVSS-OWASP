@@ -1,11 +1,30 @@
 {
   "version": 4,
   "targets": {
-    "net10.0-windows": {}
+    "net10.0-windows": {
+      "SlothSec.RiskCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/SlothSec.RiskCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SlothSec.RiskCore.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SlothSec.RiskCore/1.0.0": {
+      "type": "project",
+      "path": "../SlothSec.RiskCore/SlothSec.RiskCore.csproj",
+      "msbuildProject": "../SlothSec.RiskCore/SlothSec.RiskCore.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0-windows": []
+    "net10.0-windows": [
+      "SlothSec.RiskCore >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ginag\\.nuget\\packages\\": {},
@@ -40,7 +59,11 @@
         "net10.0-windows": {
           "framework": "net10.0-windows7.0",
           "targetAlias": "net10.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ginag\\CVSS-OWASP\\SlothSec.RiskCore\\SlothSec.RiskCore.csproj": {
+              "projectPath": "C:\\Users\\ginag\\CVSS-OWASP\\SlothSec.RiskCore\\SlothSec.RiskCore.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

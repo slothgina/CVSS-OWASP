@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "SlothSecDesktopApp/1.0.0": {
+        "dependencies": {
+          "SlothSec.RiskCore": "1.0.0"
+        },
+        "runtime": {
+          "SlothSecDesktopApp.dll": {}
+        }
+      },
+      "SlothSec.RiskCore/1.0.0": {
+        "runtime": {
+          "SlothSec.RiskCore.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SlothSecDesktopApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SlothSec.RiskCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

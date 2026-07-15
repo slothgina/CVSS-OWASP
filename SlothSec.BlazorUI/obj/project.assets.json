@@ -11,6 +11,16 @@
         "buildMultiTargeting": {
           "buildMultiTargeting/Microsoft.AspNetCore.App.Internal.Assets.targets": {}
         }
+      },
+      "SlothSec.RiskCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/SlothSec.RiskCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SlothSec.RiskCore.dll": {}
+        }
       }
     }
   },
@@ -37,11 +47,17 @@
         "microsoft.aspnetcore.app.internal.assets.10.0.9.nupkg.sha512",
         "microsoft.aspnetcore.app.internal.assets.nuspec"
       ]
+    },
+    "SlothSec.RiskCore/1.0.0": {
+      "type": "project",
+      "path": "../SlothSec.RiskCore/SlothSec.RiskCore.csproj",
+      "msbuildProject": "../SlothSec.RiskCore/SlothSec.RiskCore.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Microsoft.AspNetCore.App.Internal.Assets >= 10.0.9"
+      "Microsoft.AspNetCore.App.Internal.Assets >= 10.0.9",
+      "SlothSec.RiskCore >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -77,7 +93,11 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ginag\\CVSS-OWASP\\SlothSec.RiskCore\\SlothSec.RiskCore.csproj": {
+              "projectPath": "C:\\Users\\ginag\\CVSS-OWASP\\SlothSec.RiskCore\\SlothSec.RiskCore.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
