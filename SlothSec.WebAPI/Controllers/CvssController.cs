@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using SlothSec.RiskCore.Interfaces;
 using SlothSec.RiskCore.Models;
+using SlothSec.RiskCore.Services;
 
 namespace SlothSec.WebAPI.Controllers;
 
@@ -18,7 +19,7 @@ public class CvssController : ControllerBase
     [HttpPost("score")]
     public IActionResult Score([FromBody] CvssMetrics metrics)
     {
-        var score = _calc.CalculateScore(metrics);
-        return Ok(result);
+        var score = _calc.CalculateBaseScore(metrics);
+        return Ok(score);
     }
 }

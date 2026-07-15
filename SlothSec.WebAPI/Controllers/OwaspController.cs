@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using SlothSec.RiskCore.Interfaces;
 using SlothSec.RiskCore.Models;
+using SlothSec.RiskCore.Services;
 
 namespace SlothSec.WebAPI.Controllers;
 
