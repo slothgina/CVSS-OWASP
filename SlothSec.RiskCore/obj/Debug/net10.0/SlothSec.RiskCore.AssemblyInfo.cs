@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SlothSec.RiskCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f97cbfa6016abd428066a3dba512884d072c9e1f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20b9a781b60a8da25953d7e9f2aae66d133b912d")]
 [assembly: System.Reflection.AssemblyProductAttribute("SlothSec.RiskCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SlothSec.RiskCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
