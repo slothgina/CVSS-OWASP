@@ -1,0 +1,57 @@
+@page "/cvss"
+@using SlothSec.RiskCore.Models
+@inject CvssApiService CvssApi
+
+<h3>CVSS Calculator</h3>
+
+<div class="mb-3">
+    <label>Attack Vector</label>
+    <select @bind="metrics.AttackVector" class="form-select">
+        <option value="Network">Network</option>
+        <option value="Adjacent">Adjacent</option>
+        <option value="Local">Local</option>
+        <option value="Physical">Physical</option>
+    </select>
+</div>
+
+<div class="mb-3">
+    <label>Attack Complexity</label>
+    <select @bind="metrics.AttackComplexity" class="form-select">
+        <option value="Low">Low</option>
+        <option value="High">High</option>
+    </select>
+</div>
+
+<div class="mb-3">
+    <label>Privileges Required</label>
+    <select @bind="metrics.PrivilegesRequired" class="form-select">
+        <option value="None">None</option>
+        <option value="Low">Low</option>
+        <option value="High">High</option>
+    </select>
+</div>
+
+<div class="mb-3">
+    <label>User Interaction</label>
+    <select @bind="metrics.UserInteraction" class="form-select">
+        <option value="None">None</option>
+        <option value="Required">Required</option>
+    </select>
+</div>
+
+<button class="btn btn-primary" @onclick="Calculate">Calculate</button>
+
+@if (score.HasValue)
+{
+    <p class="mt-3"><strong>Score:</strong> @score</p>
+}
+
+@code {
+    CvssMetrics metrics = new();
+    double? score;
+
+    private async Task Calculate()
+    {
+        score = await CvssApi.GetCvssScore(metrics);
+    }
+}
