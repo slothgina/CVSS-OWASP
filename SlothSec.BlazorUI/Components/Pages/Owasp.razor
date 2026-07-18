@@ -1,0 +1,26 @@
+@page "/owasp"
+@using SlothSec.RiskCore.Models
+@using SlothSec.BlazorUI.Services
+@inject OwaspApiService OwaspApi
+
+<h3>OWASP Risk Calculator</h3>
+
+<input type="number" @bind="input.Likelihood" placeholder="likelihood (1-9)" />
+<input type="number" @bind="input.Impact" placeholder="Impact (1-9)" />
+
+<button @onclick="Calculate">Calculate</button>
+
+@if (score.HasValue)
+{
+    <p>Risk Score: @score</p>
+}
+
+@code {
+    OwaspRiskInput input = new();
+    double? score;
+
+    private async Task Calculate()
+    {
+        score = await OwaspApi.GetOwaspRisk(input);
+    }
+}
