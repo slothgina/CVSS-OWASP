@@ -6,7 +6,6 @@ C:\Users\ginag\CVSS-OWASP\SlothSec.WebAPI\bin\Debug\net10.0\SlothSec.WebAPI.deps
 C:\Users\ginag\CVSS-OWASP\SlothSec.WebAPI\bin\Debug\net10.0\SlothSec.WebAPI.runtimeconfig.json
 C:\Users\ginag\CVSS-OWASP\SlothSec.WebAPI\bin\Debug\net10.0\SlothSec.WebAPI.dll
 C:\Users\ginag\CVSS-OWASP\SlothSec.WebAPI\bin\Debug\net10.0\SlothSec.WebAPI.pdb
-C:\Users\ginag\CVSS-OWASP\SlothSec.WebAPI\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\ginag\CVSS-OWASP\SlothSec.WebAPI\bin\Debug\net10.0\Microsoft.OpenApi.dll
 C:\Users\ginag\CVSS-OWASP\SlothSec.WebAPI\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\ginag\CVSS-OWASP\SlothSec.WebAPI\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll

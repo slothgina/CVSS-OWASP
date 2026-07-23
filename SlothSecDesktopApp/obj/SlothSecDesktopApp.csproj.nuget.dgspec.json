@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ginag\\CVSS-OWASP\\SlothSecDesktopApp\\SlothSecDesktopApp.csproj": {}
+    "C:\\Users\\ginag\\CVSS-OWASP\\SlothSecDesktopApp\\SlothSecDesktopApp.csproj": {}
   },
   "projects": {
     "C:\\Users\\ginag\\CVSS-OWASP\\SlothSec.RiskCore\\SlothSec.RiskCore.csproj": {
@@ -346,14 +346,14 @@
         }
       }
     },
-    "c:\\Users\\ginag\\CVSS-OWASP\\SlothSecDesktopApp\\SlothSecDesktopApp.csproj": {
+    "C:\\Users\\ginag\\CVSS-OWASP\\SlothSecDesktopApp\\SlothSecDesktopApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ginag\\CVSS-OWASP\\SlothSecDesktopApp\\SlothSecDesktopApp.csproj",
+        "projectUniqueName": "C:\\Users\\ginag\\CVSS-OWASP\\SlothSecDesktopApp\\SlothSecDesktopApp.csproj",
         "projectName": "SlothSecDesktopApp",
-        "projectPath": "c:\\Users\\ginag\\CVSS-OWASP\\SlothSecDesktopApp\\SlothSecDesktopApp.csproj",
+        "projectPath": "C:\\Users\\ginag\\CVSS-OWASP\\SlothSecDesktopApp\\SlothSecDesktopApp.csproj",
         "packagesPath": "C:\\Users\\ginag\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ginag\\CVSS-OWASP\\SlothSecDesktopApp\\obj\\",
+        "outputPath": "C:\\Users\\ginag\\CVSS-OWASP\\SlothSecDesktopApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

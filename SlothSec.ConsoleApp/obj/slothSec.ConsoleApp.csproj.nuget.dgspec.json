@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ginag\\CVSS-OWASP\\SlothSec.ConsoleApp\\SlothSec.ConsoleApp.csproj": {}
+    "C:\\Users\\ginag\\CVSS-OWASP\\slothSec.ConsoleApp\\slothSec.ConsoleApp.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ginag\\CVSS-OWASP\\SlothSec.ConsoleApp\\SlothSec.ConsoleApp.csproj": {
+    "C:\\Users\\ginag\\CVSS-OWASP\\slothSec.ConsoleApp\\slothSec.ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ginag\\CVSS-OWASP\\SlothSec.ConsoleApp\\SlothSec.ConsoleApp.csproj",
-        "projectName": "SlothSec.ConsoleApp",
-        "projectPath": "c:\\Users\\ginag\\CVSS-OWASP\\SlothSec.ConsoleApp\\SlothSec.ConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\ginag\\CVSS-OWASP\\slothSec.ConsoleApp\\slothSec.ConsoleApp.csproj",
+        "projectName": "slothSec.ConsoleApp",
+        "projectPath": "C:\\Users\\ginag\\CVSS-OWASP\\slothSec.ConsoleApp\\slothSec.ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\ginag\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ginag\\CVSS-OWASP\\SlothSec.ConsoleApp\\obj\\",
+        "outputPath": "C:\\Users\\ginag\\CVSS-OWASP\\slothSec.ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
