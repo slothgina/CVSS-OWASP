@@ -10,3 +10,4 @@ C:\Users\ginag\CVSS-OWASP\SlothSec.RiskCore\obj\Debug\net10.0\SlothSec.RiskCore.
 C:\Users\ginag\CVSS-OWASP\SlothSec.RiskCore\obj\Debug\net10.0\refint\SlothSec.RiskCore.dll
 C:\Users\ginag\CVSS-OWASP\SlothSec.RiskCore\obj\Debug\net10.0\SlothSec.RiskCore.pdb
 C:\Users\ginag\CVSS-OWASP\SlothSec.RiskCore\obj\Debug\net10.0\ref\SlothSec.RiskCore.dll
+C:\Users\ginag\CVSS-OWASP\SlothSec.RiskCore\obj\Debug\net10.0\SlothSec.RiskCore.csproj.AssemblyReference.cache

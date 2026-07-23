@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("446d4cea-10bd-41b5-a321-a4e054ca370b")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("SlothSec.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf8bdf0e3a459d269ffa71ab9d9bb7d455bb0b11")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2bce285ef046e97bc2d6f28e37d29eb277b1f1b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SlothSec.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SlothSec.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

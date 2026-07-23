@@ -11,6 +11,7 @@ builder.Services.AddControllers();
 
 builder.Services.AddScoped<ICvssCalculator, CvssCalculator>();
 builder.Services.AddScoped<IOwaspRiskEngine, OwaspRiskEngine>();
+builder.Services.AddHttpClient<IAbuseIpLookup, AbuseIpLookup>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

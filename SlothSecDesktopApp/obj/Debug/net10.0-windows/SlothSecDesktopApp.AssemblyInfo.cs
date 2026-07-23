@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SlothSecDesktopApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf8bdf0e3a459d269ffa71ab9d9bb7d455bb0b11")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2bce285ef046e97bc2d6f28e37d29eb277b1f1b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SlothSecDesktopApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SlothSecDesktopApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
