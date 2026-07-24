@@ -11,6 +11,11 @@ builder.Services.AddHttpClient("SlothSecAPI", client =>
     client.BaseAddress = new Uri("https://localhost:5248");
 });
 
+builder.Services.AddHttpClient<AbuseApiClient>(client =>
+{
+    client.BaseAddress = new Uri("http://localhost:5241/");
+});
+
 builder.Services.AddScoped(sp =>
     sp.GetRequiredService<IHttpClientFactory>().CreateClient("SlothSecAPI"));
 

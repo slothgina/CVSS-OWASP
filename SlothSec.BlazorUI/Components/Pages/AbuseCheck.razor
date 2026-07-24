@@ -1,0 +1,29 @@
+@page "/abuse-check"
+@inject AbuseApiClient AbuseClient 
+
+<h3>AbuseIPDB Check</h3>
+
+<input @bind="ip" placeholder="Enter IP address" />
+<button @onclick="RunCheck">Check</button>
+
+@if (result != null)
+{
+    <div class="card">
+        <p><strong>IP:</strong> @result.Data.IpAddress</p>
+        <p><strong>Confidence Score:</strong> @result.Data.AbuseConfidenceScore</p>
+        <p><strong>ISP:</strong> @result.Data.Isp</p>
+        <p><strong>Domain:</strong> @result.Data.Domain</p>
+        <p><strong>Reports:</strong> @result.Data.TotalReports</p>
+        <p><strong>Distinct Users:</strong> @result.Data.NumDistinctUsers</p>
+    </div>
+}
+
+@code {
+    private string ip = string.Empty;
+    private AbuseIpResult? result;
+
+    private async Task RunCheck()
+    {
+        result = await AbuseClient.CheckIpAsync(ip);
+    }
+}
