@@ -1,10 +1,11 @@
 using System.Net.Http;
 using System.Net.Http.Json;
-using System.Threading.Tasks;
+using SlothSec.RiskCore.Interfaces;
+using SlothSec.RiskCore.Models;
 using Microsoft.Extensions.Configuration;
-using SlothSec.RiskCore.Services;
 
-namespace SlothSec.RiskCore.Models;
+
+namespace SlothSec.RiskCore.Services;
 
     public class AbuseIpLookup : IAbuseIpLookup
     {
@@ -20,8 +21,8 @@ namespace SlothSec.RiskCore.Models;
         public async Task<AbuseIpResult?> CheckIpAsync(string ip)
         {
             var url = $"https://api.abuseipdb.com/api/v2/check?ipAddress={ip}&maxAgeInDays=90";
-
             var request = new HttpRequestMessage(HttpMethod.Get, url);
+            
             request.Headers.Add("Key", _apiKey);
             request.Headers.Add("Accept", "application/json");
 

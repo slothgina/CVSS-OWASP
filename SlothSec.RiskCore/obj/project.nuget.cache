@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K94g/6JGa+g=",
+  "dgSpecHash": "S2kBOB1TXzc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ginag\\CVSS-OWASP\\SlothSec.RiskCore\\SlothSec.RiskCore.csproj",
+  "projectFilePath": "c:\\Users\\ginag\\CVSS-OWASP\\SlothSec.RiskCore\\SlothSec.RiskCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ginag\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.10\\microsoft.extensions.configuration.10.0.10.nupkg.sha512",
     "C:\\Users\\ginag\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.10\\microsoft.extensions.configuration.abstractions.10.0.10.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SnRz4GovvJk=",
+  "dgSpecHash": "aqATT0WH9kQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ginag\\CVSS-OWASP\\SlothSec.BlazorUI\\SlothSec.BlazorUI.csproj",
+  "projectFilePath": "c:\\Users\\ginag\\CVSS-OWASP\\SlothSec.BlazorUI\\SlothSec.BlazorUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ginag\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.10\\microsoft.aspnetcore.app.internal.assets.10.0.10.nupkg.sha512"
   ],

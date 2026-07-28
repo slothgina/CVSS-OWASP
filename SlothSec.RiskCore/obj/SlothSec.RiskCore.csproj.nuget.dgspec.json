@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ginag\\CVSS-OWASP\\SlothSec.RiskCore\\SlothSec.RiskCore.csproj": {}
+    "c:\\Users\\ginag\\CVSS-OWASP\\SlothSec.RiskCore\\SlothSec.RiskCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ginag\\CVSS-OWASP\\SlothSec.RiskCore\\SlothSec.RiskCore.csproj": {
+    "c:\\Users\\ginag\\CVSS-OWASP\\SlothSec.RiskCore\\SlothSec.RiskCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ginag\\CVSS-OWASP\\SlothSec.RiskCore\\SlothSec.RiskCore.csproj",
+        "projectUniqueName": "c:\\Users\\ginag\\CVSS-OWASP\\SlothSec.RiskCore\\SlothSec.RiskCore.csproj",
         "projectName": "SlothSec.RiskCore",
-        "projectPath": "C:\\Users\\ginag\\CVSS-OWASP\\SlothSec.RiskCore\\SlothSec.RiskCore.csproj",
+        "projectPath": "c:\\Users\\ginag\\CVSS-OWASP\\SlothSec.RiskCore\\SlothSec.RiskCore.csproj",
         "packagesPath": "C:\\Users\\ginag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ginag\\CVSS-OWASP\\SlothSec.RiskCore\\obj\\",
+        "outputPath": "c:\\Users\\ginag\\CVSS-OWASP\\SlothSec.RiskCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
