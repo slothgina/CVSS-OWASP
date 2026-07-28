@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("slothSec.ConsoleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b16e033e31ec2a75cce9dbd3f5e20aeced767080")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be1536e378fe1e7f573055a1271f0d6b5550ec86")]
 [assembly: System.Reflection.AssemblyProductAttribute("slothSec.ConsoleApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("slothSec.ConsoleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

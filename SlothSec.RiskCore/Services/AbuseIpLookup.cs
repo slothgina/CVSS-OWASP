@@ -2,7 +2,7 @@ using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
-using SlothSec.RiskCore.Interfaces;
+using SlothSec.RiskCore.Services;
 
 namespace SlothSec.RiskCore.Models;
 
