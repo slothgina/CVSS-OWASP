@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using SlothSec.RiskCore.Interfaces;
+using SlothSec.RiskCore.Models;
 
 namespace SlothSec.WebAPI.Controllers
 {
@@ -15,10 +15,10 @@ namespace SlothSec.WebAPI.Controllers
         }
 
         [HttpGet("check")]
-        public async Task<IActionResult> CheckIp([FromQuery] string ip)
+        public async Task<IActionResult> Check(string ip)
         {
             var result = await _lookup.CheckIpAsync(ip);
-            return Content(result, "application/json");
+            return Ok(result);
         }
     }
 }

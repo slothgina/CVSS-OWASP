@@ -1,9 +1,9 @@
 using System.Threading.Tasks;
 
-namespace SlothSec.RiskCore.Interfaces
+namespace SlothSec.RiskCore.Models
 {
     public interface IAbuseIpLookup
     {
-        Task<string> CheckIpAsync(string ip);
+        Task<AbuseIpResult?> CheckIpAsync(string ip);
     }
 }

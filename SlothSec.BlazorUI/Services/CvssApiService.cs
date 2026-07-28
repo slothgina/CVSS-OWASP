@@ -1,22 +1,27 @@
-using System.Net.Http.Json;
-using SlothSec.RiskCore.Models;
-
-namespace SlothSec.BlazorUI.Services;
-
-public class CvssApiService
+namespace SlothSec.BlazorUI.Services
 {
-    private readonly HttpClient _http;
+    using System.Net.Http;
+    using System.Net.Http.Json;
+    using System.Threading.Tasks;
+    using SlothSec.RiskCore.Models;
 
-    public CvssApiService(HttpClient http)
+    public class CvssApiService
     {
-        _http = http;
-    }
+        private readonly HttpClient _http;
 
-    public async Task<double> GetCvssScore(CvssMetrics metrics)
-    {
-        var response = await _http.PostAsJsonAsync("/api/cvss/score", metrics);
-        response.EnsureSuccessStatusCode();
+        public CvssApiService(HttpClient http)
+        {
+            _http = http;
+        }
 
-        return await response.Content.ReadFromJsonAsync<double>();
+        public async Task<double?> GetCvssScore(CvssMetrics metrics)
+        {
+            var response = await _http.PostAsJsonAsync("api/cvss/calculate", metrics);
+
+            if (!response.IsSuccessStatusCode)
+                return null;
+
+            return await response.Content.ReadFromJsonAsync<double>();
+        }
     }
 }

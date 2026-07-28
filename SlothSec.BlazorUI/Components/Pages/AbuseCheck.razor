@@ -1,5 +1,7 @@
 @page "/abuse-check"
-@inject AbuseApiClient AbuseClient 
+@inject AbuseApiClient AbuseClient
+
+@using SlothSec.RiskCore.Models
 
 <h3>AbuseIPDB Check</h3>
 
@@ -9,12 +11,12 @@
 @if (result != null)
 {
     <div class="card">
-        <p><strong>IP:</strong> @result.Data.IpAddress</p>
-        <p><strong>Confidence Score:</strong> @result.Data.AbuseConfidenceScore</p>
-        <p><strong>ISP:</strong> @result.Data.Isp</p>
-        <p><strong>Domain:</strong> @result.Data.Domain</p>
-        <p><strong>Reports:</strong> @result.Data.TotalReports</p>
-        <p><strong>Distinct Users:</strong> @result.Data.NumDistinctUsers</p>
+        <p><strong>IP:</strong> @result.Data?.IpAddress</p>
+        <p><strong>Confidence Score:</strong> @result.Data?.AbuseConfidenceScore</p>
+        <p><strong>ISP:</strong> @result.Data?.Isp</p>
+        <p><strong>Domain:</strong> @result.Data?.Domain</p>
+        <p><strong>Reports:</strong> @result.Data?.TotalReports</p>
+        <p><strong>Distinct Users:</strong> @result.Data?.NumDistinctUsers</p>
     </div>
 }
 
