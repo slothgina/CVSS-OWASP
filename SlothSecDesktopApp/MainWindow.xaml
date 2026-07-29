@@ -7,4 +7,5 @@
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"
                    FontSize="24"/>
-
+    </Grid>
+</Window>    
