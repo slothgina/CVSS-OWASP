@@ -1,11 +1,31 @@
 ﻿<Window x:Class="SlothSecDesktopApp.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="SlothSec Desktop" Height="450" Width="800">
+        Title="SlothSec Desktop" 
+        Height="600" Width="900">
+    
     <Grid>
-        <TextBlock Text="SlothSec Desktop App Loaded"
-                   VerticalAlignment="Center"
-                   HorizontalAlignment="Center"
-                   FontSize="24"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Background="#2E7D32" Padding="20">
+            <TextBlock Text="SlothSec Tools"
+                       FontSize="24"
+                       Foreground="White"
+                       Margin="0,0,0,20"/>
+
+            <Button Content="Abuse IP Checker"
+                    Margin="0 10 0 0"
+                    Command="{Binding AbuseIPCheckerCommand}"/>
+
+            <Button Content="OWASP Risk Engine"
+                    Margin="0 10 0 0"
+                    Command="{Binding ShowOWASPCommand}"/>
+        </StackPanel>
+
+        <ContentControl Grid.Column="1" 
+                        Content="{Binding CurrentView}"/>
     </Grid>
-</Window>    
+</Window>                        
