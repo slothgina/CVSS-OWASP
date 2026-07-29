@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SlothSec.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47e73c71618286bfc6e5b8eabe6a85e4a22a72c8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d668ec0bb44255f74614e57633bae9933d2db2a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SlothSec.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SlothSec.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
