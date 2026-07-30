@@ -1,19 +1,17 @@
-using System.CodeDom;
 using System.ComponentModel;
-using System.Drawing.Text;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
 using SlothSecDesktopApp.Services;
 
-namespace SlothSecDesktopAppViewModels;
+namespace SlothSecDesktopApp.ViewModels;
 
-public class abuseCheckViewModel : INotifyPropertyChanged
+public class AbuseCheckViewModel : INotifyPropertyChanged
 {
-    private readonly AbuseLookupService _servicee;
+    private readonly AbuseLookupService _service;
 
-    public abuseCheckViewModel()
+    public AbuseCheckViewModel()
     {
-        _servicee = new AbuseLookupService();
+        _service = new AbuseLookupService();
         CheckIpCommand = new RelayCommand(async _ => await CheckIpAsync());
     }
 
@@ -31,34 +29,37 @@ public class abuseCheckViewModel : INotifyPropertyChanged
         set { _resultText = value; OnPropertyChanged(); }
     }
 
-    private ICommand _checkIpCommand { get; }
+    public ICommand CheckIpCommand { get; }
 
     private async Task CheckIpAsync()
     {
-        ResultText = "Please enter an IP address.";
-        return;
+        if (string.IsNullOrWhiteSpace(IpAddress))
+        {
+            ResultText = "Please enter an IP address.";
+            return;
+        }
+
+        var result = await _service.LookupAsync(IpAddress);
+
+        if (result == null)
+        {
+            ResultText = "No data returned for this IP.";
+            return;
+        }
+
+        ResultText =
+            $"IP Address: {result.IpAddress}\n" +
+            $"Country: {result.CountryName}\n" +
+            $"Usage Type: {result.UsageType}\n" +
+            $"Confidence Score: {result.ConfidenceScore}\n" +
+            $"Is Whitelisted: {result.IsWhitelisted}\n" +
+            $"Total Reports: {result.TotalReports}\n" +
+            $"Last Reported At: {result.LastReportedAt}";
     }
 
-    var result = await _service.LookupAsync(IpAddress);
-
-    if (result != null)
-    {
-        ResultText = "No data returned for this IP.";
-        return;
-    }
-
-    ResultText =
-        $"IP Address: {result.IpAddress}\n" +
-        $"Country: {result.CountryName}\n" +
-        $"Usage Type: {result.UsageType}\n" +
-        $"Confidence Score: {result.ConfidenceScore}\n" +
-        $"Is Whitelisted: {result.IsWhitelisted}\n" +
-        $"Total Reports: {result.TotalReports}\n" +
-        $"Last Reported At: {result.LastReportedAt}";
-
-
-public event PropertyChangedEventHandler? PropertyChanged;
-private void OnPropertyChanged([CallerMemberName] string name = null)
-    => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+    public event PropertyChangedEventHandler? PropertyChanged;
+    private void OnPropertyChanged([CallerMemberName] string name = null)
+        => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
 }
+  
     
