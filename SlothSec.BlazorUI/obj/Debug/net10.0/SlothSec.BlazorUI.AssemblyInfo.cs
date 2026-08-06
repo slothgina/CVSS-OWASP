@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SlothSec.BlazorUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f53fd54e7c5e764c49d8b057fbee947510d3f23")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c2cdec4bf4298fa679cb4b9967e2abbeee185f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("SlothSec.BlazorUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SlothSec.BlazorUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
