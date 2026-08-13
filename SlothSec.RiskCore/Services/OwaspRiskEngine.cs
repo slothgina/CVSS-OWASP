@@ -7,7 +7,6 @@ public class OwaspRiskEngine : IOwaspRiskEngine
 {
     public double CalculateRisk(OwaspRiskInput input)
     {
-        //placeholder
         return input.Likelihood * input.Impact;
     }
 }
