@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a1lET5oZsCA=",
+  "dgSpecHash": "qwwNFebYHxs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ginag\\CVSS-OWASP\\SlothSec.ConsoleApp\\SlothSec.ConsoleApp.csproj",
+  "projectFilePath": "C:\\Users\\ginag\\CVSS-OWASP\\slothSec.ConsoleApp\\slothSec.ConsoleApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ginag\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.10\\microsoft.extensions.configuration.10.0.10.nupkg.sha512",
     "C:\\Users\\ginag\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.10\\microsoft.extensions.configuration.abstractions.10.0.10.nupkg.sha512",
