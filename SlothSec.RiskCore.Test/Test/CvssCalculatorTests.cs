@@ -21,4 +21,3 @@ public class CvssCalculatorTests
         Assert.Equal((5 + 4 + 3) / 3.0, score);
     }
 }
-//Test placeholder formula

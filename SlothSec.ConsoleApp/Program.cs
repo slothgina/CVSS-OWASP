@@ -3,19 +3,46 @@ using SlothSec.RiskCore.Services;
 
 Console.WriteLine("=== SlothSec CVSS + OWASP Risk Calculator ===\n");
 
-var metrics = new CvssMetrics();
+double ReadDouble(string prompt)
+{
+    double value;
+    while (true)
+    {
+        Console.Write(prompt);
+        var input = Console.ReadLine();
+        
+        if (double.TryParse(input, out value) && value >= 0 && value <= 10)
+            return value;
+            
+        Console.WriteLine("Invalid input. Please enter a number between 0 and 10.\n");
+             
+    }
+}
 
-Console.Write("Attack Vector (numeric): ");
-metrics.AttackVector = double.Parse(Console.ReadLine());
+int ReadInt(string prompt)
+{
+    int value;
+    while (true)
+    {
+        Console.Write(prompt);
+        var input = Console.ReadLine();
+        
+        if (int.TryParse(input,out value) && value >= 1 && value <= 10)
+            return value;
+            
+        Console.WriteLine("Invalid input. Please enter a number between 1 and 10.\n");
+             
+    }
+}
 
-Console.Write("Attack Complexity (numeric): ");
-metrics.AttackComplexity = double.Parse(Console.ReadLine());
+var metrics = new CvssMetrics
+{
+    AttackVector = ReadDouble("Attack Vector (0-10): "),
+    AttackComplexity = ReadDouble("Attack Complexity (0-10): "),
+    PrivilegesRequired = ReadDouble("Privileges Required (0-10): "),
+    UserInteraction = ReadDouble("User Interaction (0-10): ")
+};
 
-Console.Write("Privileges Required (numeric): ");
-metrics.PrivilegesRequired = double.Parse(Console.ReadLine());
-
-Console.Write("User Interaction (numeric): ");
-metrics.UserInteraction = double.Parse(Console.ReadLine());
 
 var cvssCalc = new CvssCalculator();
 double cvssScore = cvssCalc.CalculateBaseScore(metrics);
@@ -23,13 +50,25 @@ double cvssScore = cvssCalc.CalculateBaseScore(metrics);
 Console.WriteLine($"\nCVSS Score: {cvssScore:F2}");
 
 
-var owasp = new OwaspRiskInput();
+int ReadOwaspValue(string prompt)
+{
+    while (true)
+    {
+        Console.Write(prompt);
+        var input = Console.ReadLine();
+        
+        if (int.TryParse(input, out int value) && value >= 1 && value <= 9)
+            return value;
+            
+        Console.WriteLine("Invalid input. Please enter a number between 1 and 9.\n");
+    }
+}
 
-Console.Write("\nOWASP Likelihood (1–9): ");
-owasp.Likelihood = int.Parse(Console.ReadLine());
-
-Console.Write("OWASP Impact (1–9): ");
-owasp.Impact = int.Parse(Console.ReadLine());
+var owasp = new OwaspRiskInput
+{
+    Likelihood = ReadOwaspValue("\nOWASP Likelihood (1–9): "),
+    Impact = ReadOwaspValue("OWASP Impact (1–9): ")
+};
 
 var owaspEngine = new OwaspRiskEngine();
 double owaspScore = owaspEngine.CalculateRisk(owasp);
