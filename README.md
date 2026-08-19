@@ -1,4 +1,4 @@
-### <div align="center">SlothSec Risk Analysis Suite</div>
+# <div align="center">SlothSec Risk Analysis Suite</div>
 
 ### <div align="center">CVSS + OWASP Risk Calculator • ASP.NET Web API • Console Client • Automated Tests</div>
 
