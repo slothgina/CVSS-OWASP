@@ -1,13 +1,13 @@
-#### SlothSec Risk Analysis Suite
+### <div align="center">SlothSec Risk Analysis Suite</div>
 
-### CVSS + OWASP Risk Calculator • ASP.NET Web API • Console Client • Automated Tests
+### <div align="center">CVSS + OWASP Risk Calculator • ASP.NET Web API • Console Client • Automated Tests</div>
 
 The SlothSec Risk Analysis Suite is a multi‑project .NET solution that calculates, stores, and manages cybersecurity risk scores using both CVSS (Common Vulnerability Scoring System) and OWASP Risk Rating methodologies.
 This project demonstrates full‑stack C# development, API design, CRUD operations, automated testing, and clean architecture — built as my final project for the Code:You Software Development Program.
 
-### Project Structure
+### <div align="center">Project Structure</div>
 
-1. SlothSec.WebAPI (ASP.NET Core Web API)
+SlothSec.WebAPI (ASP.NET Core Web API)
 Provides REST endpoints for:
 
 CVSS scoring
@@ -26,7 +26,7 @@ Models
 
 A static RiskStore class acting as an in‑memory database
 
-2. SlothSec.ConsoleApp (API Consumer)
+SlothSec.ConsoleApp (API Consumer)
 A C# console application that:
 
 Collects validated numeric input
@@ -39,7 +39,7 @@ Shows severity classification
 
 Demonstrates clean input validation and user interaction
 
-3. SlothSec.RiskCore.Test (Automated Tests)
+SlothSec.RiskCore.Test (Automated Tests)
 An xUnit test suite that validates:
 
 CVSS calculator logic
@@ -52,7 +52,7 @@ Edge cases and expected behavior
 
 All tests pass successfully.
 
-### How Scoring Works
+### <div align="center">How Scoring Works</div>
 CVSS (Common Vulnerability Scoring System)
 Your app uses four base metrics:
 
@@ -126,7 +126,7 @@ DELETE /api/risk/{id} → Delete a record
 
 This satisfies the final project requirement for persistent in‑memory data.
 
-### How to Build & Run
+### <div align="center">How to Build & Run</div>
 Prerequisites:
 .NET 8 or .NET 10 SDK
 
@@ -159,7 +159,7 @@ Code
 total: 7, failed: 0, succeeded: 7
 
 
-### What I Learned
+### <div align="center">What I Learned</div>
 This project brought together everything from the course:
 
 Building APIs
@@ -180,7 +180,7 @@ Separating UI, API, business logic, and tests.
 Real‑World Development Workflow
 GitHub repo structure, debugging, refactoring, documentation.
 
-### If I Had More Time…
+### <div align="center">If I Had More Time…</div>
 I would add:
 
 Database Integration
