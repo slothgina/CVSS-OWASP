@@ -1,9 +1,11 @@
-SlothSec Risk Analysis Suite
-CVSS + OWASP Risk Calculator • ASP.NET Web API • Console Client • Automated Tests
+#### SlothSec Risk Analysis Suite
+
+### CVSS + OWASP Risk Calculator • ASP.NET Web API • Console Client • Automated Tests
+
 The SlothSec Risk Analysis Suite is a multi‑project .NET solution that calculates, stores, and manages cybersecurity risk scores using both CVSS (Common Vulnerability Scoring System) and OWASP Risk Rating methodologies.
 This project demonstrates full‑stack C# development, API design, CRUD operations, automated testing, and clean architecture — built as my final project for the Code:You Software Development Program.
 
-Project Structure
+### Project Structure
 
 1. SlothSec.WebAPI (ASP.NET Core Web API)
 Provides REST endpoints for:
@@ -50,7 +52,7 @@ Edge cases and expected behavior
 
 All tests pass successfully.
 
-                    How Scoring Works
+### How Scoring Works
 CVSS (Common Vulnerability Scoring System)
 Your app uses four base metrics:
 
@@ -109,7 +111,7 @@ Score Range	Severity
 < 4.0	LOW
 
 
-                 CRUD Operations (In‑Memory Storage)
+CRUD Operations (In‑Memory Storage)
 The WebAPI includes full CRUD support using a static in‑memory store:
 
 POST /api/risk → Create a new risk record
@@ -124,8 +126,8 @@ DELETE /api/risk/{id} → Delete a record
 
 This satisfies the final project requirement for persistent in‑memory data.
 
-                 How to Build & Run
-Prerequisites
+### How to Build & Run
+Prerequisites:
 .NET 8 or .NET 10 SDK
 
 Visual Studio Code or Visual Studio
@@ -155,43 +157,45 @@ Expected output:
 
 Code
 total: 7, failed: 0, succeeded: 7
-                      What I Learned
+
+
+### What I Learned
 This project brought together everything from the course:
 
- Building APIs
+Building APIs
 Controllers, routing, models, and in‑memory storage.
 
- Consuming APIs
+Consuming APIs
 Sending requests from a console app and handling responses.
 
- CRUD Operations
+CRUD Operations
 Create, read, update, and delete risk records.
 
- Automated Testing
+Automated Testing
 Using xUnit to validate logic and ensure reliability.
 
- Clean Architecture
+Clean Architecture
 Separating UI, API, business logic, and tests.
 
- Real‑World Development Workflow
+Real‑World Development Workflow
 GitHub repo structure, debugging, refactoring, documentation.
 
- If I Had More Time…
+### If I Had More Time…
 I would add:
 
- Database Integration
+Database Integration
 Replace in‑memory storage with SQL Server or PostgreSQL using EF Core.
 
- Full UI Dashboard
+Full UI Dashboard
 Expand the Blazor or WPF client into a full risk analysis dashboard.
 
- Authentication
+Authentication
 Add API key or JWT authentication.
 
- Reporting
+Reporting
 Generate PDF or HTML risk reports.
 
- More Tests
+More Tests
 Add integration tests for the WebAPI and UI tests for Blazor.
 
 The SlothSec Risk Analysis Suite represents the full journey through the Code:You program — from basic C# syntax to full API development, testing, and multi‑project architecture.
